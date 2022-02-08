@@ -18,6 +18,7 @@
 html,
 body {
   height: 100%;
+  scroll-behavior: smooth;
 }
 /*
   Typographic tweaks!
@@ -59,4 +60,21 @@ h4,
 h5,
 h6 {
   overflow-wrap: break-word;
+}
+
+.mb-8 {
+  margin-bottom: 8px !important;
+}
+.mb-16 {
+  margin-bottom: 16px !important;
+}
+.mb-24 {
+  margin-bottom: 24px !important;
+}
+.mb-32 {
+  margin-bottom: 32px !important;
+}
+
+.pointer {
+  cursor: pointer;
 }
