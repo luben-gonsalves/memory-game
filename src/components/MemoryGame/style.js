@@ -8,8 +8,8 @@ export const Container = styled.div`
   background-repeat: no-repeat;
   background-size: cover;
   color: #fffff;
-  text-align: center;
   padding: 40px;
+  text-align: center;
 `;
 
 export const CustomTitle = styled(Title)`

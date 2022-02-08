@@ -71,7 +71,7 @@ const MemoryGame = () => {
   return (
     <Container>
       <Row justify="center">
-        <Col xs={24} sm={24} md={18} lg={18} xl={12}>
+        <Col xs={20} sm={20} md={18} lg={18} xl={12}>
           <CustomTitle level={2}>Memory Game</CustomTitle>
           <CustomTitle level={4} className="mb-16">
             Score : {score}
@@ -79,7 +79,8 @@ const MemoryGame = () => {
           <Button type="primary" onClick={reset} className="mb-24">
             Reset
           </Button>
-          <Row gutter={[16, 16]}>
+
+          <Row gutter={[16, 16]} justif="center">
             {imagesArray?.map((image, index) => (
               <FlipCard
                 index={index}
